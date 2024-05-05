@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="white_demon">
+        <item>24m_5ms</item>
+        <item>24m_2ms</item>
+        <item>72m_5ms</item>
+        <item>72m_2ms</item>
+        <item>mib_0016</item>
+    </string-array>
+</resources>

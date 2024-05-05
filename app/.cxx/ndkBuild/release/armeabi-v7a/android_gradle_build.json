@@ -1,0 +1,48 @@
+{
+  "buildFiles": [
+    "/home/jason/work/MDBTest/app/src/main/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/home/jason/Android/Sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/jason/work/MDBTest/app/src/main/jni/Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/home/jason/work/MDBTest/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/jason/work/MDBTest/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "buildTargetsCommand": "/home/jason/Android/Sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/jason/work/MDBTest/app/src/main/jni/Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/home/jason/work/MDBTest/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/jason/work/MDBTest/app/build/intermediates/ndkBuild/release/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "jni_stm32isp-release-armeabi-v7a": {
+      "buildCommand": "/home/jason/Android/Sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/home/jason/work/MDBTest/app/src/main/jni/Android.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-19 NDK_OUT\u003d/home/jason/work/MDBTest/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/home/jason/work/MDBTest/app/build/intermediates/ndkBuild/release/lib /home/jason/work/MDBTest/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libjni_stm32isp.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "jni_stm32isp",
+      "files": [
+        {
+          "src": "/home/jason/work/MDBTest/app/src/main/jni/hal_sys_log.c",
+          "flags": "-target armv7-none-linux-androideabi19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/jason/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/home/jason/work/MDBTest/app/src/main/jni -DANDROID -fPIC -Wunknown-warning-option -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/home/jason/work/MDBTest/app/src/main/jni/stm32isp.cpp",
+          "flags": "-target armv7-none-linux-androideabi19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/jason/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/home/jason/work/MDBTest/app/src/main/jni -DANDROID -fPIC -Wunknown-warning-option -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/home/jason/work/MDBTest/app/src/main/jni/stm32isp_jni_native_interface.cpp",
+          "flags": "-target armv7-none-linux-androideabi19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/jason/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/home/jason/work/MDBTest/app/src/main/jni -DANDROID -fPIC -Wunknown-warning-option -Wformat -Werror\u003dformat-security"
+        },
+        {
+          "src": "/home/jason/work/MDBTest/app/src/main/jni/stm32isp_jni_register.cpp",
+          "flags": "-target armv7-none-linux-androideabi19 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /home/jason/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -D_FORTIFY_SOURCE\u003d2 -fno-exceptions -fno-rtti -fpic -march\u003darmv7-a -mthumb -Oz -DNDEBUG -I/home/jason/work/MDBTest/app/src/main/jni -DANDROID -fPIC -Wunknown-warning-option -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "/home/jason/work/MDBTest/app/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libjni_stm32isp.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cCompilerExecutable": "/home/jason/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang",
+      "cppCompilerExecutable": "/home/jason/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

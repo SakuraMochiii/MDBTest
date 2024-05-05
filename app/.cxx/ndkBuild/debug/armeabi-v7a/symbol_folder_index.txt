@@ -1,0 +1,1 @@
+E:\AndroidProjects\MDBTest\app\build\intermediates\ndkBuild\debug\obj\local\armeabi-v7a

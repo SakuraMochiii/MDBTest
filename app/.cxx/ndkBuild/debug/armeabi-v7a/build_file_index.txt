@@ -1,0 +1,1 @@
+E:\AndroidProjects\MDBTest\app\src\main\jni\Android.mk
