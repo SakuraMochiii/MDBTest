@@ -13,20 +13,20 @@ import android.text.style.ForegroundColorSpan;
 import android.widget.TextView;
 
 /**
- * @author john 打印信息的格式控制类。 红色：出现的问题。 绿色：正常的信息。 黄色：可能出现的问题。 1 : color is black 2
- * : color is yellow 3 : color is blue 4 : color is red other number :
- * color is black;
+ * @author john 
+ * printing information format: red=error, green=all normal, yellow=possible error 
+ * 1: color is black, 2: color is yellow, 3: color is blue, 4: color is red, other number: color is black;
  */
 public class LogHelper {
 
     /**
-     * TestView changed color and info message. Called after the TestView is
+     * TestView changes color and info message. Called after the TestView is
      * created and whenever the TextView changes. Set your TextView's message
      * here.
      *
      * @param TextView text
      * @param String   infoMsg : color is red < color name="red">#FF0000< /color><
-     *                 !--红色 -->
+     *                 !--red -->
      */
     @Deprecated
     public static void infoException(TextView text, String infoMsg) {
@@ -70,7 +70,7 @@ public class LogHelper {
      * @param TextView text
      * @param String   infoMsg
      * @param order    :set background color. 1 : color is black. 2 : color is
-     *                 yellow. 3 : color is blue .4 : color is red .other number :
+     *                 yellow. 3 : color is blue. 4 : color is red. other number :
      *                 color is black;
      */
     public static void infoMsgAndColor(TextView text, String infoMsg, int order) {
@@ -135,7 +135,7 @@ public class LogHelper {
     }
 
     /**
-     * 蓝色字体打印成功信息
+     * printing success message with blue text
      *
      * @param msg
      * @param text
@@ -163,7 +163,7 @@ public class LogHelper {
     }
 
     /**
-     * 红色字体打印失败信息
+     * printing error message with red text
      *
      * @param msg
      * @param text
@@ -192,7 +192,7 @@ public class LogHelper {
     }
 
     /**
-     * 给textresult上用黑色写上命令。
+     * give textresult an order with black text
      */
     public static void infoAppendMsg(String msg, TextView txtResult) {
         // TextView text = PreMainActivity.txtResult;
@@ -289,7 +289,7 @@ public class LogHelper {
     }
 
     /**
-     * 蓝色字体打印成功信息
+     * printing success message with blue text
      *
      * @param msg
      * @param text
@@ -317,7 +317,7 @@ public class LogHelper {
     }
 
     /**
-     * 红色字体打印失败信息
+     * printing error message with red text
      *
      * @param msg
      * @param text
