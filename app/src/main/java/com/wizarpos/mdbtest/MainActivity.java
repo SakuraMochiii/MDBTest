@@ -106,7 +106,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
      * Eg：
      * Send Data:090300946c0d
      * Recv Data: 09040194006b0d
-     * Ps： ifCMDID（0x94）后面的ACK 不为0x00 ，说明MDB 通讯timeout
+     * Ps： if ACK behind CMDID（0x94）is not 0x00，then MDB timeout
      * 2.get MIB version
      * send get version cmd
      * Send Data: 090300926e0d
